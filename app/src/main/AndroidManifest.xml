@@ -13,7 +13,19 @@
         android:theme="@style/Theme.Themoviedb"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchMovieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MovieListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MovieDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
