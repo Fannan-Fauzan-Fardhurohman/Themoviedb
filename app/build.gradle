@@ -16,6 +16,9 @@ android {
         versionCode 1
         versionName "1.0"
 
+        buildConfigField("String","BASE_URL",'"https://api.themoviedb.org/3/"')
+        buildConfigField("String","PHOTO_BASE_URL",'"https://image.tmdb.org/t/p/w500/"')
+        buildConfigField("String","API_KEY",'"ee501bd7aaa4fd01bebd96eaf379ff14"')
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -34,6 +37,9 @@ android {
     }
     buildFeatures {
         viewBinding = true
+    }
+    buildFeatures {
+        buildConfig = true
     }
 }
 

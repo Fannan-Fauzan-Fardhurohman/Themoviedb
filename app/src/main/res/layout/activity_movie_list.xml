@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?attr/bg"
-    tools:context=".views.MovieList">
+    tools:context=".MovieListActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbarFrame"
@@ -31,7 +31,7 @@
                     android:id="@+id/logo"
                     android:layout_width="46dp"
                     android:layout_height="46dp"
-                    android:src="@drawable/ic_logo"
+                    android:src="@drawable/ic_logo_adaptive"
                     android:contentDescription="@string/logo"
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
